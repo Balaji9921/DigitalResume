@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.img-container {
+    flex-basis: 30%;
+}
+
+.description-container {
+    flex-basis: 70%;
+}
+
+.bg {
+    margin-left: 10px;
+}
+
+.profile-img {
+    height: 200px;
+    width: 150px;
+}
+
+.description-container {
+    margin-top: 40px;
+}
+
+.first-name {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.linkedin {
+    text-decoration: none;
+    margin-top: 0px;
+    color: skyblue;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.last-name {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: orange;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.role {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.objective {
+    margin-top: 15px;
+    color: #858585;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.bottom-container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title {
+    color: orange;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.date {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #858585;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.dept {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.clg {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #858585;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.cgpa {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.first-degree {
+    margin-bottom: 20px;
+}
+
+.education {
+    flex-basis: 60%;
+
+}
+
+.expertise {
+    flex-basis: 40%;
+}
+
+.certificates {
+    flex-basis: 60%;
+    margin-top: 20px;
+}
+
+.projects {
+    flex-basis: 40%;
+    margin-top: 20px;
+}
+
+.skill-set {
+    color: #858585;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.certificates-list {
+    color: #858585;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 9px;
+    padding-left: 9px;
+}
+
+.project-list {
+    color: #858585;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 9px;
+    padding-left: 9px;
+}
+
+.project-des {
+    font-size: 10px;
+    color: white;
+}
+
+.link {
+    font-size: 10px;
+    color: skyblue;
+    text-decoration: none;
+}
